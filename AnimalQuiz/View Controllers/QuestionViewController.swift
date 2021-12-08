@@ -14,8 +14,8 @@ class QuestionViewController: UIViewController {
     @IBOutlet var progressView: UIProgressView!
     @IBOutlet var rangedSlider: UISlider! {
         didSet {
-            let answerCount = Float(currentAnswers.count - 1)
-            rangedSlider.value = answerCount
+            let answersCount = Float(questions[questionIndex].answers.count - 1)
+            rangedSlider.maximumValue = answersCount
         }
     }
     

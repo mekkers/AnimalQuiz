@@ -336,6 +336,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="animalTypeLabel" destination="mX5-iL-SRf" id="HIV-01-LL0"/>
+                        <outlet property="descriptionLabel" destination="BSj-gD-gRK" id="8xD-cn-uZo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ECh-OQ-h6V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="qAG-Lu-SZC" userLabel="Exit" sceneMemberID="exit"/>
